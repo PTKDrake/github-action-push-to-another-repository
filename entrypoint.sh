@@ -20,6 +20,7 @@ fi
 CLONE_DIR=$(mktemp -d)
 
 echo "Cloning destination git repository"
+ls "$SOURCE_DIRECTORY"/test
 # Setup git
 git config --global user.email "$USER_EMAIL"
 git config --global user.name "$DESTINATION_GITHUB_USERNAME"
